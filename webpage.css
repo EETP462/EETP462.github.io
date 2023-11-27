@@ -810,5 +810,5 @@ html {
   /* Aquí puedes agregar estilos específicos para pantallas medianas si es necesario */
 }
  @media (max-width: 600px) {
-footer: margin-top:10px;
+footer{ margin:10px;}
  }
