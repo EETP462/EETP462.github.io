@@ -250,7 +250,7 @@ table tr:last-child td:last-child {
 }
 
 footer {
-  background-color: #ffc2c2;
+  background-color: #aa3d3d;
   color: white;
   padding: 5px;
   text-align: center;
@@ -476,7 +476,7 @@ margin-top: 2rem;
   /* Estilos del footer */
   
   footer {
-    background-color: #ffc2c2;
+    background-color: #aa3d3d;
     color: white;
     padding: 5px;
     text-align: center;
