@@ -813,7 +813,10 @@ html {
 footer{ margin:10px;
 }
 .Novedades{
-height:300vh;
+height:250vh;
 margin-bottom:0px;
 }
+.sect{
+width:100%;
  }
+
