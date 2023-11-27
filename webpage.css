@@ -682,6 +682,9 @@ html {
 	#Novedades{
 		width:100%;
 	}
+	footer{
+		margin-top:1000px;
+	}
   }
 }
 @media (min-width: 1200px) {
