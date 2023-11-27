@@ -446,6 +446,7 @@ html {
     height: auto;
   } 
   #sect1 {
+	width: 100%;
     position: relative;
     overflow: hidden;
     margin-bottom: 0px;
@@ -522,6 +523,7 @@ html {
     font-size: 30px; 
   }
   #sect2 {
+	  width:100%;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -558,6 +560,7 @@ html {
   }
   #Estudiantina {
     height: auto;
+	  width:100%;
   }
 
   #Estudiantina h1 {
@@ -676,6 +679,9 @@ html {
     }
 #SECT1 H1{
 	margin:0px;
+	#Novedades{
+		width:100%;
+	}
   }
 }
 @media (min-width: 1200px) {
