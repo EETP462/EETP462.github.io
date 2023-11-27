@@ -1,0 +1,604 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Playfair+Display:wght@600&display=swap');
+* {
+  margin: 0%;
+}
+body {
+    margin: 0;
+    background-size: 100%;
+  }
+  body::-webkit-scrollbar{
+    width: 15px;
+  }
+  body::-webkit-scrollbar-thumb{
+    background-color: rgba(175, 47, 47, 0.856);
+    border-radius: 8px;
+  }
+  body::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(87, 21, 21);
+  }
+  body::-webkit-scrollbar-track-piece{
+    background-color: rgba(238, 94, 94, 0.822);
+  }
+  header {
+    background-color: rgba(253, 213, 213, 0.363);
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    padding: 0px;
+  }
+  .fa_solid{
+    opacity: 0;
+    border-bottom: transparent;
+  }
+  i{
+    visibility: hidden;
+    display: none;
+    visibility: 0;
+  }
+  nav {
+    float: left;
+  }
+  .ul img{
+    height: 65px;
+    width:65px;
+    transition: all 1s;
+  }
+  .ul img:hover{
+    transform: scale(0.9);
+  }
+  .ul{
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+  }
+  nav ul li {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 20px;
+    padding-top: 5px;
+  }
+  .ul a {
+    float: right;
+    display: block; 
+    padding: 20px;
+    color: #d61b1b;
+    text-decoration: none;
+    text-align: center;
+    margin-left:60px;
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+  }
+  .ul a:hover {
+    color: rgb(133, 32, 32);
+    border-bottom: 2px solid rgb(122, 30, 30);
+    opacity: 1;
+  }
+  .fa_solid{
+    opacity: 0;
+    border-bottom: transparent;
+  }
+i{
+  visibility: hidden;
+  display: none;
+  visibility: 0;
+}
+  h1 {
+    padding-top: 6rem;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+    color: rgb(146, 8, 8);
+    lighting-color: rgb(192, 15, 15);
+    font-size: 55px;
+    text-shadow: rgb(194, 160, 160) 0.1em 0.1em 0.2em;
+    text-align: center;
+  }
+  h2{
+  margin-left: 2rem;
+  }
+  p {
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+    font-size: 20px;
+    padding-top: 40px;
+  }
+#primerciclo{
+  height: 180vh;
+  width: 100%;
+  background: rgb(255,255,255);
+  background: linear-gradient(40deg, rgba(255,255,255,1) 0%, rgba(254,252,252,1) 25%, rgba(254,245,245,1) 45%, rgba(242,187,187,1) 63%, rgba(176,29,29,1) 100%);
+}
+i{
+  visibility: hidden;
+  display: none;
+  visibility: 0;
+}
+h2{
+  margin-top: 2rem;
+margin-left: 6rem;
+font-size: 30px;
+color: rgb(146, 8, 8);
+}
+.talleres1{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: 0;
+  justify-content: space-between;
+}
+#primerciclo .tal2{
+  margin-top: 7rem;
+}
+.itemtal{
+  display: flex;
+  flex-direction: column;
+}
+#primerciclo h2{
+  text-align: center;
+  margin-top: 3rem;
+}
+img{
+  transition: transform 0.5s;
+  justify-content: space-between;
+  height: 250px;
+}
+img:hover{
+  transform: scale(0.8);
+}
+#informatica{
+  background: rgb(255,237,237);
+  background: linear-gradient(38deg, rgba(255,237,237,1) 0%, rgb(250, 240, 240) 51%, rgb(240, 209, 209) 72%, rgb(255, 162, 162) 100%);
+  height: 225vh;
+}
+#administracionempresa{
+  background: rgb(255,237,237);
+  background: linear-gradient(38deg, rgba(255,237,237,1) 0%, rgb(250, 240, 240) 51%, rgb(240, 209, 209) 72%, rgb(255, 162, 162) 100%);
+  height: 225vh;
+}
+#administracionempresa h2{
+  text-align: center;
+}
+.infoicon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.infoicon h1{
+  text-align: center;
+  margin-left: 6rem;
+}
+.infoicon img{
+  width: 80px;
+  height: 80px;
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+#informatica h2{
+  text-align: center;
+}
+table {
+  width: 30%;
+  border-collapse: collapse;
+  margin-top: 3rem;
+}
+
+th {
+background: linear-gradient(77deg, rgb(255, 174, 174) 0%, rgb(252, 154, 154) 13%, rgb(175, 59, 59) 76%);
+  color: aliceblue;
+  font-weight: 400;
+  font-size: 25px;
+} 
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  min-width: 350px;
+}
+#informatica thead.Th{
+  background: linear-gradient(77deg, rgb(230, 141, 141) 0%, rgb(155, 39, 39) 13%, rgb(138, 33, 33) 76%);
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 25px;
+}
+.tercuart{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+table td{
+  font-size: 20px;
+}
+table tr th,
+table tr td {
+  border-right: 1px solid #642d2dbb;
+  border-bottom: 1px solid #642d2dbb;
+  padding: 5px;
+  text-align: center;
+}
+table tr th:first-child,
+table tr td:first-child {
+  border-left: 1px solid #642d2dbb;
+}
+table tr th td {
+  background: #eee;
+  border-top: 1px solid #642d2dbb;
+  text-align: center;
+}
+
+table tr:first-child th:first-child {
+  border-top-left-radius: 9px;
+}
+
+table tr:first-child th:last-child {
+  border-top-right-radius: 9px;
+}
+
+table tr:last-child td:first-child {
+  border-bottom-left-radius: 9px;
+}
+
+table tr:last-child td:last-child {
+  border-bottom-right-radius: 9px;
+}
+
+footer {
+  background-color: #ffc2c2;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 10px;
+  width: 20px; /* Ajusta el ancho según tus necesidades */
+  height: 20px; /* Ajusta la altura según tus necesidades */
+}
+
+.icon-instagram {
+  background-image:url("https://cdn-icons-png.flaticon.com/512/1384/1384015.png"); /* Reemplaza 'ruta_de_la_imagen_instagram.png' con la ruta correcta */
+  background-size: cover; /* Ajusta según tus necesidades */
+  width: 25px; /* Ajusta según tus necesidades */
+  height: 25px; /* Ajusta según tus necesidades */
+}
+
+.icon-phone {
+  background-image: url('https://cdn-icons-png.flaticon.com/512/455/455705.png'); /* Reemplaza 'ruta_de_la_imagen_telefono.png' con la ruta correcta */
+  background-size: cover; /* Ajusta según tus necesidades */
+  width: 20px; /* Ajusta según tus necesidades */
+  height: 20px; /* Ajusta según tus necesidades */
+}
+#instagramicon{
+margin-top: 1rem;
+}
+#phoneicon{
+margin-top: 2rem;
+}
+.ubi {
+  color: white;
+  text-decoration: none;
+}
+@media(max-width:600px){
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif; /* Ajusta según tus preferencias */
+  }
+  
+  /* Estilos del header */
+  
+  header {
+    background-color: rgba(253, 213, 213, 0.363);
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    padding: 0;
+  }
+  
+  nav {
+    float: left;
+  }
+  
+  .ul img {
+    height: 65px;
+    width: 65px;
+    transition: all 1s;
+  }
+  
+  .ul img:hover {
+    transform: scale(0.9);
+  }
+  
+  .ul {
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+  }
+  
+  nav ul li {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 5px;
+  }
+  
+  .ul a {
+    float: right;
+    display: block;
+    padding: 20px;
+    color: #d61b1b;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 10px; /* Reducido el margen para dispositivos móviles */
+    font-size: 20px;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+  }
+  
+  .ul a:hover {
+    color: rgb(133, 32, 32);
+    border-bottom: 2px solid rgb(122, 30, 30);
+    opacity: 1;
+  }
+  
+  .fa_solid{
+    font-size: 30px;
+    position:absolute;
+    right: 15px;
+    top: 15px;
+    float: left;
+  }
+  i{
+    visibility: visible;
+    font-size: 2.5rem;
+    float: left;
+    margin-left: 30px;
+  }
+  .ul img{
+    display: none;
+    display: 0;
+  }
+  
+  /* Estilos de la sección #primerciclo */
+  
+  #primerciclo {
+    height: auto; /* Cambiado de 180vh a auto */
+    width: 100%;
+    background: linear-gradient(40deg, rgba(255, 255, 255, 1) 0%, rgba(254, 252, 252, 1) 25%, rgba(254, 245, 245, 1) 45%, rgba(242, 187, 187, 1) 63%, rgba(176, 29, 29, 1) 100%);
+  }
+  
+  #primerciclo h2 {
+    text-align: center;
+    margin-top: 3rem;
+  }
+  
+  .talleres1 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column; /* Cambiado de row a column para dispositivos móviles */
+    align-items: center;
+    margin-left: 0; /* Ajustado el margen izquierdo */
+    margin-right: 0;
+    justify-content: space-between;
+  }
+  
+  .itemtal {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  img {
+    transition: transform 0.5s;
+    justify-content: space-between;
+    height: auto; /* Cambiado de 250px a auto */
+    width: 100%; /* Ajustado el ancho al 100% */
+  }
+  
+  img:hover {
+    transform: scale(0.8);
+  }
+  
+  /* Estilos de la sección #informatica y #administracionempresa */
+  
+  #informatica,
+  #administracionempresa {
+    background: linear-gradient(38deg, rgba(255, 237, 237, 1) 0%, rgb(250, 240, 240) 51%, rgb(240, 209, 209) 72%, rgb(255, 162, 162) 100%);
+    height: auto; /* Cambiado de 225vh a auto */
+  }
+  
+  #informatica h2,
+  #administracionempresa h2 {
+    text-align: center;
+    margin-top: 3rem;
+  }
+  
+  .infoicon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .infoicon h1 {
+    text-align: center;
+    margin-left: 0; /* Ajustado el margen izquierdo */
+  }
+  
+  .infoicon img {
+    width: 80px;
+    height: 80px;
+    margin-left: 0; /* Ajustado el margen izquierdo */
+    margin-top: 1rem;
+  }
+  
+  /* Estilos de las tablas */
+  
+  table {
+    width: 100%; /* Ajustado al 100% para dispositivos móviles */
+    border-collapse: collapse;
+    margin-top: 3rem;
+  }
+  
+  th,
+  table tr td {
+    border: 1px solid #642d2dbb;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  th {
+    background: linear-gradient(77deg, rgb(255, 174, 174) 0%, rgb(252, 154, 154) 13%, rgb(175, 59, 59) 76%);
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 25px;
+  }
+  
+  table tr th td {
+    background: #eee;
+  }
+  
+  /* Estilos del footer */
+  
+  footer {
+    background-color: #ffc2c2;
+    color: white;
+    padding: 5px;
+    text-align: center;
+
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .icon-instagram {
+    background-image: url("https://cdn-icons-png.flaticon.com/512/1384/1384015.png");
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+  }
+  
+  .icon-phone {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/455/455705.png');
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+  }
+  .admin{
+    width: 20rem;
+    margin-left: 2rem;
+  }
+ .prev, .next,.text {font-size: 11px}
+ .ul{
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    display: none;
+    }
+    .ul a{
+      color: aliceblue;
+      text-align: center;
+      justify-content: center;
+      margin-right: 100px;
+      float: none;
+      transition: transform 1s;
+    }
+    .ul a:hover{
+      transform: scale(1.2);
+      color: aliceblue;
+      border-bottom: transparent;
+    }
+  .lista {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width:auto;
+    text-align: center;
+    background-color: rgba(146, 19, 19, 0.904);
+    margin-left: 30px;
+  }
+  .fa_solid{
+    font-size: 30px;
+    position:absolute;
+    right: 15px;
+    top: 15px;
+    float: left;
+  }
+  i{
+    visibility: visible;
+    font-size: 2.5rem;
+    float: left;
+    margin-left: 30px;
+  }
+  .ul img{
+    display: none;
+    display: 0;
+  }
+  #informatica #administracionempresa h1{
+    font-size: 5px;
+  }
+
+  #informatica h2,
+  #administracionempresa h2{
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+
+  #informatica p,
+  #administracionempresa p {
+    font-size: 15px;
+    margin-left: 0; /* Ajustar el margen izquierdo */
+  }
+  #informatica h1,
+  #administracionempresa h1{
+    font-size: 40px;
+    margin-left: 0;
+  }
+  /* Ajustar el tamaño de las imágenes en la sección #informatica y #administracionempresa */
+  .infoicon img,
+  img {
+    width: 70px; /* Hacer que las imágenes ocupen el 100% del ancho del contenedor */
+    height: 70px; /* Ajustar la altura automáticamente para mantener la proporción */
+    margin-top: 1rem;
+  }
+  #informatica ul,
+  #administracionempresa ul {
+    margin-left: 0;
+    padding-left: 20px; /* Agregar relleno a las listas */
+  }
+  footer{
+    font-size: 14px;
+    position: relative;
+    margin-top: 90px;
+    }
+
+}
