@@ -600,5 +600,30 @@ margin-top: 2rem;
     position: relative;
     margin-top: 90px;
     }
+  @media (max-width: 600px) {
+      th, td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+      }
+    
+      /* Opcional: Agregar estilos adicionales para hacer que la tabla sea más legible en pantallas pequeñas */
+      th {
+        background-color: #f2f2f2;
+      }
+    
+      tr {
+        margin-bottom: 10px;
+      }
+    
+      /* Opcional: Alinear el texto al centro en celdas de encabezado y datos */
+      th, td {
+        text-align: center;
+      }
+      .tercuart{
+        display: flex;
+        flex-direction: column;
+      }
+    }
 
 }
