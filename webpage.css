@@ -809,3 +809,6 @@ html {
 @media (max-width: 1200px) {
   /* Aquí puedes agregar estilos específicos para pantallas medianas si es necesario */
 }
+ @media (max-width: 600px) {
+footer: margin-top:10px;
+ }
