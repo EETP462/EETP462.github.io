@@ -381,7 +381,7 @@ html {
   object-fit: cover;
 }
 
-	.button-17 {
+  .button-17 {
   align-items: center;
   appearance: none;
   background-color: #ce3131be;
@@ -416,7 +416,7 @@ html {
   margin-top: 4rem;
   margin-left: 2rem;
 }
-	.button-17:hover {
+.button-17:hover {
   background: #ce3131be;
   color: #ffffff;
 }
