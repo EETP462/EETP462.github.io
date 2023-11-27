@@ -676,3 +676,125 @@ html {
     }
   }
 }
+@media (min-width: 1200px) {
+  /* Sección 1 */
+  #sect1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1rem;
+    background: linear-gradient(40deg, rgba(255, 255, 255, 1) 0%, rgba(254, 252, 252, 1) 25%, rgba(254, 245, 245, 1) 45%, rgba(242, 187, 187, 1) 63%, rgba(176, 29, 29, 1) 100%);
+  }
+
+  #sect1 h1 {
+    font-size: calc(3em + 3vw);
+    top: 500px;
+    margin-left: 30px;
+    margin-top: 50px;
+  }
+
+  #sect1 p {
+    font-size: 30px;
+    margin-left: 30px;
+  }
+
+  /* Sección 2 */
+  #sect2 {
+    background: linear-gradient(40deg, rgba(255, 255, 255, 1) 0%, rgba(254, 252, 252, 1) 37%, rgba(254, 245, 245, 1) 47%, rgba(244, 222, 222, 1) 95%, rgba(249, 178, 178, 1) 100%);
+  }
+
+  .cajapadre {
+    width: 350px;
+    height: 500px;
+  }
+
+  #sect2 img {
+    width: 350px;
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  /* Sección 1 */
+  #sect1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1rem;
+    background: linear-gradient(40deg, rgba(255, 255, 255, 1) 0%, rgba(254, 252, 252, 1) 25%, rgba(254, 245, 245, 1) 45%, rgba(242, 187, 187, 1) 63%, rgba(176, 29, 29, 1) 100%);
+  }
+
+  #sect1 h1 {
+    font-size: calc(3em + 3vw);
+    top: 500px;
+    margin-left: 30px;
+    margin-top: 50px;
+  }
+
+  #sect1 p {
+    font-size: 30px;
+    margin-left: 30px;
+  }
+
+  /* Sección 2 */
+  #sect2 {
+    background: linear-gradient(40deg, rgba(255, 255, 255, 1) 0%, rgba(254, 252, 252, 1) 37%, rgba(254, 245, 245, 1) 47%, rgba(244, 222, 222, 1) 95%, rgba(249, 178, 178, 1) 100%);
+  }
+
+  .cajapadre {
+    width: 350px;
+    height: 500px;
+  }
+
+  #sect2 img {
+    width: 350px;
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 30px;
+  }
+}
+@media (min-width: 1200px) {
+  /* Sección 1 */
+  #sect1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 1rem;
+    background: linear-gradient(40deg, rgba(255, 255, 255, 1) 0%, rgba(254, 252, 252, 1) 25%, rgba(254, 245, 245, 1) 45%, rgba(242, 187, 187, 1) 63%, rgba(176, 29, 29, 1) 100%);
+  }
+
+  #sect1 h1 {
+    font-size: calc(3em + 3vw);
+    top: 500px;
+    margin-left: 30px;
+    margin-top: 50px;
+  }
+
+  #sect1 p {
+    font-size: 30px;
+    margin-left: 30px;
+  }
+
+  /* Sección 2 */
+  #sect2 {
+    background: linear-gradient(40deg, rgba(255, 255, 255, 1) 0%, rgba(254, 252, 252, 1) 37%, rgba(254, 245, 245, 1) 47%, rgba(244, 222, 222, 1) 95%, rgba(249, 178, 178, 1) 100%);
+  }
+
+  .cajapadre {
+    width: 350px;
+    height: 500px;
+  }
+
+  #sect2 img {
+    width: 350px;
+    height: 60vh;
+    object-fit: cover;
+    border-radius: 30px;
+  }
+}
+
+/* Estilos para pantallas medianas (max-width: 1200px) */
+@media (max-width: 1200px) {
+  /* Aquí puedes agregar estilos específicos para pantallas medianas si es necesario */
+}
