@@ -812,6 +812,8 @@ html {
  @media (max-width: 600px) {
 footer{ margin:10px;
 }
-.Novedades{height:300vh;
+.Novedades{
+height:300vh;
+margin-bottom:0px;
 }
  }
