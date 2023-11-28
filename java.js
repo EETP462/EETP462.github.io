@@ -21,3 +21,14 @@ function changeSlide(n) {
 function redirigirAPagina() {
     window.location.href = 'ciclos.html';
   }
+const navitem= document.querySelectorAll(".navitem");
+
+navitem.forEach(function(item) {
+
+     item.addEventListener("click", function (){
+
+                  ul.classList.remove("lista");
+
+     });
+
+});
