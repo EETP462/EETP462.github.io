@@ -254,7 +254,8 @@ footer {
   color: white;
   padding: 5px;
   text-align: center;
-  height:20hv;
+  min-height:10hv;
+  max-height:20hv;
 }
 
 .contact-info {
@@ -628,5 +629,6 @@ margin-top: 2rem;
     }
 
 }
+
 
 
