@@ -9,8 +9,6 @@ body {
     background-color: rgb(241, 241, 241);
 	height: 100%;
   	margin: 0;
-  	display: flex;
-  	flex-direction: column;
   }
   .sect {
     width: 100%;
@@ -207,11 +205,11 @@ footer {
   background-color: #aa3d3d;
   color: white;
   padding: 5px;
-	text-align:center;
-  position: fixed;
-  bottom: 0;
-  left: 0;
+  text-align: center;
   width: 100%;
+  margin-top: auto; /* empuja el footer hacia abajo */
+  min-height: 10vh;
+  max-height: 30vh;
 }
 
 .contact-info {
@@ -898,6 +896,7 @@ width:100%;
       margin-left: 6rem;
       margin-top: 1rem;
     }
+
 
 
 
