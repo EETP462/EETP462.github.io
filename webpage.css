@@ -207,6 +207,8 @@ footer {
   position:relative;
   width: 99%;
   bottom: 0;
+	position: relative;
+	min-height: 100vh;
 }
 
 .contact-info {
@@ -893,4 +895,5 @@ width:100%;
       margin-left: 6rem;
       margin-top: 1rem;
     }
+
 
