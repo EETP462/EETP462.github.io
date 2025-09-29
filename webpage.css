@@ -7,6 +7,10 @@ body {
     margin: 0;
     background-size: 100%;
     background-color: rgb(241, 241, 241);
+	height: 100%;
+  	margin: 0;
+  	display: flex;
+  	flex-direction: column;
   }
   .sect {
     width: 100%;
@@ -894,6 +898,7 @@ width:100%;
       margin-left: 6rem;
       margin-top: 1rem;
     }
+
 
 
 
